@@ -38,27 +38,33 @@
         </ul>
     </div>
 </nav>
-    
-
-  <div class="container my-4">
-    <h2>Reserva</h2>
-    <form>
+<div class="container my-4">
+  <h2>Reserva</h2>
+  <form>
       <div class="mb-3">
-        <label for="nome" class="form-label">Nome Completo</label>
-        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+          <label for="nome" class="form-label">Nome Completo</label>
+          <input type="text" class="form-control" id="nome" placeholder="Seu nome">
       </div>
       <div class="mb-3">
-        <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="Seu email">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Seu email">
       </div>
       <div class="mb-3">
-        <label for="telefone" class="form-label">Telefone</label>
-        <input type="text" class="form-control" id="telefone" placeholder="Seu telefone">
+          <label for="telefone" class="form-label">Telefone</label>
+          <input type="text" class="form-control" id="telefone" placeholder="Seu telefone">
+      </div>
+      <div class="mb-3">
+          <label for="genero" class="form-label">Gênero</label>
+          <select class="form-control" id="genero" aria-placeholder="Gênero">
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outro">Outros</option>
+          </select>
       </div>
       <button type="submit" class="btn btn-success">Confirmar Reserva</button>
-    </form>
-  </div>
-  <br><br><br><br><br><br><br><br><br>
+  </form>
+</div>
+<br><br><br><br><br><br><br><br><br>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
